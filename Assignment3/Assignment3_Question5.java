@@ -14,15 +14,20 @@ public class Assignment3_Question5 {
 		 * 	1 hours, 1 minutes, and 35 seconds */
 		
 		int hours, minutes, seconds, inputSeconds;
-		inputSeconds = 2000;
-		seconds = inputSeconds%60;
+		inputSeconds = 7823;
+		seconds = inputSeconds%60; //
 		minutes = (inputSeconds - seconds)%3600/60;
 		hours = (inputSeconds - seconds)/3600;
 		
 		System.out.println(hours + " hours, " + minutes + " minutes, and " + seconds + " seconds");
 		
+		int h = inputSeconds / 3600;
+		int hs = h * 3600;
+		int m = (inputSeconds - hs) / 60;
+		int ms = m * 60;
+		int s = (inputSeconds - hs - ms);
 		
-		
+		System.out.println(h + " hours, " + m + " minutes, and " + s + " seconds");		
 		
 
 	}

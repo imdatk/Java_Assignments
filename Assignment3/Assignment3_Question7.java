@@ -11,7 +11,7 @@ public class Assignment3_Question7 {
 		 * 	Your change is 0 quarters, 0 dimes, and 1 nickles */
 		int price, change;
 		final int bill = 100;
-		price = 35;
+		price = 10;
 		change = bill - price;
 		int quarters = change/25;
 		int nickles = ((change - quarters * 25)%10)/5;
@@ -20,10 +20,14 @@ public class Assignment3_Question7 {
 		System.out.println("Price in cents: " + price);
 		System.out.println("Your change is " + quarters + " quarters, " + dimes + " dimes, and " + nickles + " nickles");
 		
+		int q = change/25;
+		int qc = q*25;
+		int d = (change - qc)/10;
+		int dc = d*10;
+		int n = (change - qc - dc)/5;
+		System.out.println("Your change is " + q + " quarters, " + d + " dimes, and " + n + " nickles");      
 		
-
-      
-
-	}
+		
+		}
 
 }
