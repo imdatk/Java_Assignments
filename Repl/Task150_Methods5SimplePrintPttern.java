@@ -1,4 +1,4 @@
-package assignments.repl;
+package a_repl.A141_160;
 
 public class Task150_Methods5SimplePrintPttern {
 
