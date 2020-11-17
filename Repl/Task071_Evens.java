@@ -1,4 +1,4 @@
-package assignments.repl;
+package a_repl.A061_80;
 
 public class Task071_Evens {
 
