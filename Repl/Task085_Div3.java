@@ -1,4 +1,4 @@
-package assignments.repl;
+package a_repl.A081_100;
 
 public class Task085_Div3 {
 
