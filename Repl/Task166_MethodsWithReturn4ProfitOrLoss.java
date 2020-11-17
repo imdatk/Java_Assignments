@@ -1,4 +1,4 @@
-package assignments.repl;
+package a_repl.A161_180;
 
 public class Task166_MethodsWithReturn4ProfitOrLoss {
 
