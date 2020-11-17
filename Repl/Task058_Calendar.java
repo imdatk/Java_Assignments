@@ -1,4 +1,4 @@
-package assignments.repl;
+package a_repl.A041_60;
 
 import java.util.Scanner;
 
