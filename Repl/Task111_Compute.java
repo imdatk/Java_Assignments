@@ -1,4 +1,4 @@
-package assignments.repl;
+package a_repl.A101_120;
 
 public class Task111_Compute {
 
