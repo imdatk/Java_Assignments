@@ -1,6 +1,6 @@
 package Assignment9;
 
-public class Question7_Half {
+public class Question07_Half {
 
 	public static void main(String[] args) {
 		String word = "javaca";
