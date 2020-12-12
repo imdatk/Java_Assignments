@@ -3,7 +3,7 @@ package a_repl.A121_140;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class TAsk139_ArraysFrontPiece {
+public class Task139_ArraysFrontPiece {
 	
 //	Given an int array of any length, print a new array of its first 2 elements. If the array is smaller 
 //	than length 2, use whatever elements are present.
