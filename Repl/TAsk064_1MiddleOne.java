@@ -2,7 +2,7 @@ package a_repl.A061_80;
 
 import java.util.Scanner;
 
-public class TAsk064_1MiddleOne {
+public class Task064_MiddleOne {
 
 	public static void main(String[] args) {
 //		You have a word, do the following:
