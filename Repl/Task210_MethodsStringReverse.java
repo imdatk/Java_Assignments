@@ -1,6 +1,8 @@
-package a_repl.A181_210;
+package a_repl.A201_220;
 
 import java.util.Arrays;
+
+import a_repl.A181_200.Utils;
 
 public class Task210_MethodsStringReverse {
 //	Reverse a string without affecting special characters
@@ -24,7 +26,7 @@ public class Task210_MethodsStringReverse {
 		 String result = Utils.reverseLetters("..zxcv..d"); 
 		 System.out.println(result.equals("..dvcx..z")); //true
 		    
-		 String result2 = Utils.reverseLetters1("---abmkl.o-");
+		 String result2 = Utils.reverseLetters("---abmkl.o-");
 		 System.out.println(result2.equals("---olkmb.a-")); //true
 		    
 		 String result3 = Utils.reverseLetters("---abmkl.o-");
